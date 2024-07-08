@@ -1,0 +1,2 @@
+sh serialProf.sh 3D_spatial_network_transformed output makefile 9 18 0.05 4 3D_spatial_network_transformed NBHQUERY
+sh serialProf.sh 3D_spatial_network_transformed output makefile 9 18 0.05 4 3D_spatial_network_transformed KNNQUERY
