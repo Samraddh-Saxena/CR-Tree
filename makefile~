@@ -1,0 +1,18 @@
+output: Data.o RList.o RTree.o Main_RTree.o
+	gcc -o output Data.o RList.o RTree.o Main_RTree.o -lm  
+
+Main_RTree.o: Main_RTree.c
+	gcc -c Main_RTree.c
+
+Data.o: Data.c
+	gcc -c Data.c -lm
+	
+RList.o: RList.c
+	gcc -c RList.c -lm 
+
+RTree.o: RTree.c
+	gcc -c RTree.c -lm
+	
+clean:
+	rm *.o
+	rm output
